@@ -61,7 +61,9 @@ button {
 
 .hero {
   display: flex;
-  gap: 400px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 15%;
 }
 
 .left {
@@ -131,16 +133,17 @@ main h1 {
 }
 
 .author {
+  width: 800px;
   text-align: right;
-  margin-top: 10px;
 }
 
 .cta-block {
   background-color: #3882f6;
   display: flex;
   justify-content: space-around;
-  height: 50%;
-  width: 50%;
+  width: 900px;
+  padding: 40px 80px;
+  border-radius: 10px;
 }
 
 .cta-text {
